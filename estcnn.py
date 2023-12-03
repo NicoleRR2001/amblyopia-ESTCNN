@@ -47,9 +47,6 @@ class ESTCNN(nn.Module):
 
 
 from torchsummary import summary
-import hiddenlayer as hl
-import netron
-import tensorwatch as tw
 
 """print network parameters and usage"""
 if __name__ == '__main__':
