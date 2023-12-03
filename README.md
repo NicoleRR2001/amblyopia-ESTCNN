@@ -1,7 +1,7 @@
 # amblyopia-ESTCNN
 This repo is an implementation to classify amblyopia using ESTCNN model. <a href = "https://doi.org/10.1109/TNNLS.2018.2886414">ESTCNN</a> is a CNN model to extract features of EEG data.
 
-The dataset is obtained from the hospital and it is private. The task is a 4-class classification task, including N(normal),L(Left),R(right),B(binoculus). The sample rate is fixed and it is 500hz. There are 17 channels in total.
+The dataset is obtained from some hospital in Beijing and it is not publicized. There are 80 testees in total and the task is a 4-class classification task, including N(normal),L(Left),R(right),B(binoculus). The sample rate is fixed and it is 500hz. There are 17 channels in total. 
 
 We dived into twe series of experiments. 
 One of them is the impact of window size(the length of the signal) on the model. We seperate data into seven lengths, 250-3000(duration time 0.25-3 seconds).
